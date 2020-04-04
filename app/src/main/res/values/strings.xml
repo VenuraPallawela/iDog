@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">iDog</string>
+    <string name="idog">iDog</string>
+    <string name="identify_breed">Identify Breed</string>
+    <string name="identify_dog">Identify Dog</string>
+    <string name="search_dog_breed">Search Dog Breed</string>
+    <string name="submit_identify_breed">Submit</string>
+    <string name="dog_dropdown">Choose Dog Breed</string>
+
+    <string-array name="dog_breeds">
+        <item>englishfoxhound</item>
+        <item>borderterrier</item>
+        <item>silkyterrier</item>
+        <item>goldenretriever</item>
+        <item>labradorretriever</item>
+        <item>rottweiler</item>
+        <item>germanshepard</item>
+        <item>eskimodog</item>
+        <item>toypoodle</item>
+        <item>miniaturepoodle</item>
+    </string-array>
+</resources>

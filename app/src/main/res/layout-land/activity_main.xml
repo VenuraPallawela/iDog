@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_home_land"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="327dp"
+        android:layout_height="300dp"
+        android:columnCount="1"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/ApplicationName"
+            android:layout_gravity="center"
+            android:text="@string/idog"
+            android:textAlignment="center"
+            android:textSize="15pt" />
+
+        <Button
+            android:id="@+id/identifyBreed"
+            android:layout_width="325dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/identify_breed"
+            android:textAlignment="center"
+            android:textColor="#FCFFCF"
+            android:textSize="10pt" />
+
+        <Button
+            android:id="@+id/identifyDog"
+            android:layout_width="325dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/identify_dog"
+            android:textAlignment="center"
+            android:textColor="#FCFFCF"
+            android:textSize="10pt" />
+
+        <Button
+            android:id="@+id/searchDogBreed"
+            android:layout_width="327dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/search_dog_breed"
+            android:textAlignment="center"
+            android:textColor="#FCFFCF"
+            android:textSize="10pt" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Game Mode" />
+
+    </GridLayout>
+
+</RelativeLayout>
